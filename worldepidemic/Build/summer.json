@@ -1,0 +1,13 @@
+{
+"companyName": "Grinnell Stats Games",
+"productName": "WorldEpidemic",
+"dataUrl": "summer.data.unityweb",
+"asmCodeUrl": "summer.asm.code.unityweb",
+"asmMemoryUrl": "summer.asm.memory.unityweb",
+"asmFrameworkUrl": "summer.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
