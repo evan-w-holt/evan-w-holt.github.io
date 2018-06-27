@@ -2,6 +2,6 @@
 
 Build notes:
 
-Use Brotli compression
+Use gzip compression
 
-Make sure you don't overwrite the web.config file, this ensures the browser knows how to decompress the unityweb files
+Make sure you don't overwrite the web.config files, these ensure the browser knows how to decompress the unityweb files
