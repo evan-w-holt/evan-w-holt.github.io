@@ -1,7 +1,8 @@
 <?php
-	$txtcontent = $_POST['txt'];
-	$fp = fopen('Leaderboard.txt', 'w');
-	fwrite($fp, $txtcontent);
-	fclose($fp);
-	echo htmlspecialchars($txtcontent);
+	if(isset($_POST['txt'])){
+		file_put_contents("Leaderboard.txt", $_POST['txt']);
+		echo "uploaded.";
+	}else{
+		echo "invalid."
+	}
 ?>
