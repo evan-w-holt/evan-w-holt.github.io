@@ -3,5 +3,5 @@
 	$fp = fopen('Leaderboard.txt', 'w');
 	fwrite($fp, $txtcontent);
 	fclose($fp);
-	echo $txtcontent
+	echo htmlspecialchars($txtcontent);
 ?>
